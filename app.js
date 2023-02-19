@@ -22,7 +22,7 @@ const raisedToPower = document.querySelector("#raised-to-the-power");
 const equalTo = document.querySelector("#equal");
 
 // document.querySelector('#result').style.color = 'white';
-displayResult.value = "0";
+displayResult.value = "0"; //for input we use .value not textContent
 
 // Load event listener
 loadEventListeners();
